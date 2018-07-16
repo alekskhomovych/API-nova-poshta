@@ -1,0 +1,5 @@
+{
+ "api_url": "https://api.novaposhta.ua/v2.0/json",
+ "apiKey": "fd473114393cf249a973971b40032212",
+ "timeout": 10
+}

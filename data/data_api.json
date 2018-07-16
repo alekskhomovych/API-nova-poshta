@@ -1,0 +1,37 @@
+{
+ "sity": "Суми",
+
+ "waybill": [
+    {"city_recipient": "Полтава",
+     "weight": 15,
+     "service_type": "DoorsDoors",
+     "cost": 500,
+     "cargo_type": "Cargo",
+     "seats_amount": 2
+    }
+ ],
+
+ "api_methods": {
+   "getSettlements": {"modelName": "AddressGeneral",
+                      "calledMethod": "getSettlements",
+                      "methodProperties": {"FindByString": ""} ,
+                      "apiKey": ""},
+   "getWarehouses": { "modelName": "AddressGeneral",
+                      "calledMethod": "getWarehouses",
+                      "methodProperties": {"SettlementRef": ""},
+                      "apiKey": ""
+                    },
+   "getDocumentPrice": {"modelName": "InternetDocument",
+                        "calledMethod": "getDocumentPrice",
+                        "methodProperties": {"CitySender": "",
+                                             "CityRecipient": "",
+                                             "Weight": "",
+                                             "ServiceType": "",
+                                             "Cost": "",
+                                             "CargoType": "",
+                                             "SeatsAmount": ""
+                                            },
+                        "apiKey": ""
+                       }
+ }
+}
