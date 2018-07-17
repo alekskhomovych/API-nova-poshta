@@ -7,7 +7,16 @@
      "service_type": "DoorsDoors",
      "cost": 500,
      "cargo_type": "Cargo",
-     "seats_amount": 2
+     "seats_amount": 2,
+     "expected": true
+    },
+    {"city_recipient": "wwrtregdg",
+     "weight": 15,
+     "service_type": "DoorsDoors",
+     "cost": 500,
+     "cargo_type": "Cargo",
+     "seats_amount": 2,
+     "expected": false
     }
  ],
 
